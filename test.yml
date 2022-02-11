@@ -1,5 +1,5 @@
 ---
-- hosts: ansible
+- hosts: localhost
   pre_tasks:
     - shell: echo 'hello'
 
