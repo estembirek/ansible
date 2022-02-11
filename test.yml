@@ -1,3 +1,4 @@
 ---
-
-test=ahoj
+- hosts: webservers
+  roles:
+    - role: '/path/to/my/roles/common'
