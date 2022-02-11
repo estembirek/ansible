@@ -13,4 +13,4 @@
   
 - name: Prints result
   ansible.builtin.debug:
-    msg: "{{result}}"
+    msg: "{{result.stdout}}"
