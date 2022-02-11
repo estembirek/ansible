@@ -1,4 +1,9 @@
 ---
 
+- hosts: localhost
+
+  pre_tasks:
+    - shell: echo 'hello'
+
   roles:
-    - role: try
+    - { role: try }
