@@ -1,9 +1,9 @@
 ---
 # tasks file for user
 #
-- name: Add the user 'johnd' with a specific uid and a primary group of 'admin'
+- name: Add the user 'eduard' with a specific uid and a primary group of 'wheel'
   ansible.builtin.user:
     name: eduard
-    comment: John Doe
+    comment: Ed Borec
     uid: 1040
     group: wheel
