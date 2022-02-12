@@ -1,7 +1,7 @@
 ---
 # tasks file for upgrade
 #
-- name: Upgrade all packages
+- name: Install the latest version of telnet
   yum:
-    name: '*'
-    state: latest
+    name: telnet
+    state: present
